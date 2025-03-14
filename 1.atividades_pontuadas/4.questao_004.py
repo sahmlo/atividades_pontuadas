@@ -3,8 +3,8 @@ os.system("clear")
 
 #Entrada
 
-print("Escolha a opção de fruta \n1 - Morango \n2 - Maça ")
-fruta = int(input("Digite sua escolha: "))
+print("Escolha a opção de fruta \n1 - Morango\nAté 5Kg - nR$ 2,50 por Kg\nAcima de 5Kg - R$ 2,20 por Kg \n\n2 - Maça\nAté 5Kg - R$ 1,80 por Kg\nAcima de 5Kg - R$ 1,50 por Kg ")
+fruta = int(input("\nDigite sua escolha (1 ou 2): "))
 
 match fruta:
     case 1:
